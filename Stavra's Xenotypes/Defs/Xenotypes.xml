@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+        <defName>StavsXenotypes_Sola</defName>
+        <label>sōla</label>
+
+        <!--Apocalypse description
+        <description>The Sōla are a massive, yet gentle and kind race of alien creatures hailing from Elīsia, a formerly beautiful and lush world. Though they are awful in combat, Sōla are well known for their ingenious minds and kind hearts. Oftentimes, they're found on glitterworlds working as researchers, scientists, doctors, and in some cases, as companions and concubines for those who can't afford a Highmate.\n\nVery little is known about their creation; All links that they possess to human life are distant at best. Even more confusingly, they seem to posess organs which were once dependent on an unknown form of energy. Whatever it was, it is long gone, and naught but the memory of the universe's lifeblood remains. Fortunately, the existence of psionic energies in the modern day allows these beings to adapt, albeit via an ersatz alternative.</description>
+        -->
+        <description>The Sōla are a massive, yet gentle and kind race of alien creatures hailing from Elīsia, a lush and beautiful rainforest world. Though they are awful in combat, Sōla are well known for their ingenious minds and kind hearts. Oftentimes, they're found on glitterworlds working as researchers, scientists, doctors, and in some cases, as companions and concubines for those who can't afford a Highmate.\n\nVery little is known about their creation; All links that they possess to human life are distant at best. They seem to possess organs which allow them to augment their life processes with an unknown form of energy of which naught but remnants remain; distant memories of the universe's lifeblood, to which modern psychic energies are but an ersatz alternative.</description>
+        <descriptionShort>A race of gentle giants that thrives in humid climates</descriptionShort>
+
+        <iconPath>Textures/Icons/Xenotypes/Sola</iconPath>
+        <inheritable>true</inheritable>
+        <combatPowerFactor>0.975</combatPowerFactor>
+        <genes>
+            <!-- Whole Body -->
+            <li>SolaFrame</li>
+            <li>Body_FemaleOnly</li>
+            <li>Body_Androgynous</li>
+            <li>Beauty_Pretty</li>
+            <li>StavrasXenotypes_HumidityNeed</li>
+            <!-- Combat -->
+            <li>StavrasXenotypes_ViolenceAverse</li>
+            <li>MeleeDamage_Weak</li>
+            <!-- Head -->
+            <li>Hair_LongOnly</li>
+            <li>Beard_NoBeardOnly</li>
+            <li>Hair_InkBlack</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_DarkBlack</li>
+            <!-- Hands -->
+            <li>ElongatedFingers</li>
+            <!-- Digestion -->
+            <li>ArchiteMetabolism</li>
+            <!-- Cognition -->
+
+            <!-- Aptitudes -->
+            <li>AptitudeAwful_Mining</li>
+            <li>AptitudePoor_Melee</li>
+            <li>AptitudeStrong_Social</li>
+            <li>AptitudeStrong_Intellectual</li>
+            <!-- Weaknesses and Resistances -->
+            <li>MinTemp_SmallIncrease</li>
+            <li>StavrasXenotypes_ToxSensitivity</li>
+        </genes>
+    </XenotypeDef>
+</Defs>

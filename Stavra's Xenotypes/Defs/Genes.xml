@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>StavrasXenotypes_HumidityNeed</defName>
+        <label>amphibious</label>
+        <labelShortAdj>amphibious</labelShortAdj>
+        <description>
+            Carriers of this gene are amphibious. They do not mind getting wet or taking a swim, but they need water to survive.
+        </description>
+        <biostatCpx>4</biostatCpx>
+        <biostatMet>4</biostatMet>
+        <causesNeed>StavrasXenotypes_Humidity</causesNeed>
+        <IconPath>Icons/HumidityNeed</IconPath>
+    </GeneDef>
+    <GeneDef>
+        <defName>StavrasXenotypes_ViolenceAverse</defName>
+        <label>violence aversion</label>
+        <labelShortAdj>violence averse</labelShortAdj>
+        <description>
+            Carriers of this gene are repulsed by the idea of hurting another. While not fully incapable of violence, their combat performance suffers due to their inherent aversion. They will suffer mentally should they resort to violence.
+        </description>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <socialFightChanceFactor>0.1</socialFightChanceFactor>
+        <aggroMentalBreakSelectionChanceFactor>0.33</aggroMentalBreakSelectionChanceFactor>
+        <MeleeDamageFactor>0.90</MeleeDamageFactor>
+        <ShootingAccuracyFactor>0.90</ShootingAccuracyFactor>
+        <displayCategory>Violence</displayCategory>
+        <displayOrderInCategory>49</displayOrderInCategory>
+        <IconPath>Icons/ViolenceAverse</IconPath>
+    </GeneDef>
+    <GeneDef ParentName="GeneToxResistBase">
+        <defName>StavrasXenotypes_ToxSensitivity</defName>
+        <label>pollution sensitivity</label>
+        <labelShortAdj>pollution sensitive</labelShortAdj>
+        <description>
+            Carriers of this gene are adapted to an extremely clean, pollution-free environment. They tend to struggle in polluted environments.
+        </description>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <statOffsets>
+            <ToxicResistance>-0.05</ToxicResistance>
+            <ToxicEnvironmentResistance>-0.2</ToxicResistance>
+        </statOffsets>
+    </GeneDef>
+</Defs>

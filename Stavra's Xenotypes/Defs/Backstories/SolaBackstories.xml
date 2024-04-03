@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--SPAWNCATEGORIES DEFINITIONS-->
+<!--
+    SolaBackstories_ElysianOrigin: Backstories of Sola that originate from their homeworld.
+    SolaBackstories_Estranged: Backstories of Sola that originate from non-Sola communities.
+    SolaBackstories_Estranged_Glitterworld: Backstories of Sola that originate from non-Sola glitterworlds.
+    SolaBackstories_Estranged_Slave: Backstories of Sola that were born or captured into slavery.
+-->
+
+<Defs>
+    <!--CHILDHOOD BACKSTORIES-->
+
+    <!--Elysian Child -->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_ElysianChild</defName>
+        <slot>Childhood</slot>
+        <title>elysian child</title>
+        <titleShort>elysian</titleShort>
+        <baseDesc>
+            Having been born on the sōlan homeworld of Elīsia, [PAWN_nameDef] had a relatively normal childhood of studying, playing with giant spiders, and frolicing in the rain.
+        </baseDesc>
+        <spawnCategories>
+            <li>SolaBackstories_ElysianOrigin</li>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Elysian Prodigy-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_ElysianProdigy</defName>
+        <slot>Childhood</slot>
+        <title>elysian prodigy</title>
+        <titleShort>prodigy</titleShort>
+        <baseDesc>
+            [PAWN_nameDef] was recognized as a child prodigy early in life, and was sent to Elīsia to study. She enjoyed plenty of resources to let her budding mind grow, and although she found it hard to socialize at times, she was generally well liked by her peers and got along well with people. She doesn't do well with manual labor.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Intellectual</key>
+                <value>8</value>
+            </li>
+            <li>
+                <key>Crafting</key>
+                <value>2</value>
+            </li>
+            <li>
+                <key>Social</key>
+                <value>-1</value>
+            </li>
+            <li>
+                <key>Animals</key>
+                <value>-2</value>
+            </li>
+            <li>
+                <key>Plants</key>
+                <value>-4</value>
+            </li>
+            <li>
+                <key>Mining</key>
+                <value>-4</value>
+            </li>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <spawnCategories>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Rainforest Wanderer-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_RainforestWanderer</defName>
+        <slot>Childhood</slot>
+        <title>rainforest wanderer</title>
+        <titleShort>rainforester</titleShort>
+        <baseDesc>
+            The Sōlan homeworld of Elīsia is a hotspot of biodiversity within the galaxy, and [PAWN_nameDef] was determined to explore the secrets of its expansive ecosystem, much to the chagrin of her parents and to the detriment of her safety. In her travels, she has grown to form a strong connection with the rainforest.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Plants</key>
+                <value>6</value>
+            </li>
+            <li>
+                <key>Animals</key>
+                <value>2</value>
+            </li>
+            <li>
+                <key>Social</key>
+                <value>-2</value>
+            </li>
+        </skillGains>
+        <spawnCategories>
+            <li>SolaBackstories_ElysianOrigin</li>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Xenocult Idol-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_XenocultIdol</defName>
+        <slot>Childhood</slot>
+        <title>xenocult idol</title>
+        <titleShort>cult idol</titleShort>
+        <baseDesc>
+            Whether by deliberate abandonment or simply through unfortunate circumstance, [PAWN_nameDef] was abandoned at a very young age with a human tribe on a distant rimworld. The tribe, assuming her to be a god, immediately took her in. Despite trying her best to not let it get to her head, [PAWN_nameDef]'s formative years would nevertheless leave her with a lingering divinity complex.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Social</key>
+                <value>6</value>
+            </li>
+            <li>
+                <key>Plants</key>
+                <value>2</value>
+            </li>
+            <li>
+                <key>Animals</key>
+                <value>2</value>
+            </li>
+            <li>
+                <key>Intellectual</key>
+                <value>-2</value>
+            </li>
+            <li>
+                <key>Medical</key>
+                <value>-2</value>
+            </li>
+        </skillGains>
+        <workDisables>ManualDumb,Cleaning</workDisables>
+        <spawnCategories>
+            <li>SolaBackstories_Estranged</li>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+
+
+    <!--ADULT BACKSTORIES-->
+
+    <!--Akunzoia Worshipper-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_AkunzoiaWorshipper</defName>
+        <slot>Adulthood</slot>
+        <title>akunzoia worshipper</title>
+        <titleShort>devotee</titleShort>
+        <baseDesc>
+            Unable to ignore the overwhelmingly large heap of evidence, [PAWN_nameDef] became an ardent believer in the divinity of the Akunzoia; the long-extinct creator-species that is believed to have created the Sōla. Her eccentricity often drove people away, which only let her dive deeper into her studies, as well as her worship. Her devotion eventually culminated in the decision to leave Elīsia and venture out into the periphery of civilized space, searching for answers and for enlightenment.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Intellectual</key>
+                <value>4</value>
+            </li>
+            <li>
+                <key>Social</key>
+                <value>-4</value>
+            </li>
+        </skillGains>
+        <spawnCategories>
+            <li>SolaBackstories_ElysianOrigin</li>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Akunzoia Historian-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_AkunzoiaHistorian</defName>
+        <slot>Adulthood</slot>
+        <title>akunzoia historian</title>
+        <titleShort>historian</titleShort>
+        <baseDesc>
+            [PAWN_nameDef] was always fascinated by the ancient Akunzoia. She made her burning curiosity into a career, working as an Akunzoia Historian for her local historical society. Despite her line of work being near-nonexistent on rimworld settlements, she nonetheless found her niche searching on the edge of civilization for the secrets of the ancient world.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Intellectual</key>
+                <value>6</value>
+            </li>
+            <li>
+                <key>Social</key>
+                <value>-2</value>
+            </li>
+        </skillGains>
+        <spawnCategories>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Exiled Psychopath-->
+
+    <!--Sōlan Glittermate-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_SolanGlittermate</defName>
+        <slot>Adulthood</slot>
+        <title>Sōlan glittermate</title>
+        <titleShort>glittermate</titleShort>
+        <basDesc>
+            [PAWN_nameDef] was sold to a wealthy glitterworld resident as an exotic concubine. After years of serving her cruel master, [PAWN_nameDef] snapped. She violently rebelled against her master, and as punishment, she was banished to a nearby rimworld. She still carries trauma from years of abuse, and unlike most Sōla, is no stranger to physical violence.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Melee</key>
+                <value>4</value>
+            </li>
+            <li>
+                <key>Cooking</key>
+                <value>2</value>
+            </li>
+            <li>
+                <key>Social</key>
+                <value>-1</value>
+            </li>
+        </skillGains>
+        <spawnCategories>
+            <li>SolaBackstories_Estranged_Slave</li>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Xenoanthropologist-->
+    <AlienRace.AlienBackstoryDef>
+        <defName>SolaBackstories_Xenoanthropologist</defName>
+        <slot>Adulthood</slot>
+        <title>xenoanthropologist</title>
+        <titleShort>anthropologist</titleShort>
+        <baseDesc>
+            From a young age, [PAWN_nameDef] has always had a fascination with alien cultures. Through her natural tact and her diligent studies, she became a leading Xenoanthropologist. The insights she gained on her travels have averted many diplomatic crises.
+        </baseDesc>
+        <skillGains>
+            <li>
+                <key>Social</key>
+                <value>6</value>
+            </li>
+            <li>
+                <key>Intellectual</key>
+                <value>2</value>
+            </li>
+        </skillGains>
+        <disallowedTraits>
+            <Xenophobia>1</Xenophobia>
+        </disallowedTraits>
+        <spawnCategories>
+            <li>SolaBackstories</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+</Defs>

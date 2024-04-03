@@ -1,0 +1,16 @@
+[] Finish Sola backstories (4/30 child, 4/50 adult)
+[~] Make Sola BodyType def and make the Sola Race use it
+[] Rework Sola Ears
+[] Finish name generators
+    [] Finish Sola Namegen
+    [] Make Ideo Namegens
+    [] Make Faction Namegens
+[] Add genes to race
+[] Make Sola race spawn only as their xenotype
+[] Make Biotech a dependency
+[] Make Violence averse thoughts
+[~] Implement 4 arms and 5 tentacles
+[] Add Sola specific bionics
+[] Make Sola pawnkinds
+[] Make Dehydration alert
+[] Add namespace to Need_Water.cs and ThoughtWorker_NeedWater.cs

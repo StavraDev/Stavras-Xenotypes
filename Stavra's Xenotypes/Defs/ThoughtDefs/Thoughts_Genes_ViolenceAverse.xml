@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <defName>StavrasXenotypes_HurtViolenceAverse</DefName>
+        <stackLimit>4</stackLimit>
+        <durationDays>4</durationDays>
+        <doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+        <nullifyingTraits>
+            <li>Psychopath</li>
+            <li>Bloodlust</li>
+        </nullifyingTraits>
+        <stages>
+            <li>
+                <label>hurt someone</label>
+                <description>
+                    I- I hurt someone... That was so horrible...
+                </description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>StavrasXenotypes_KilledViolenceAverse</DefName>
+        <stackLimit>4</stackLimit>
+        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+        <durationDays>12</durationDays>
+        <doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+        <stages>
+            <label>killed someone</label>
+            <description>
+                I killed someone... A person, dead, by my hands. I'm a monster...
+            </description>
+            <baseMoodEffect>-15</baseMoodEffect>
+        </stages>
+    </ThoughtDef>
+</Defs>

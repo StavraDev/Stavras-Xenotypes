@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BodyPartDef>
+        <defName>SolaBodyParts_Tentacle</defName>
+        <label>tentacle</label>
+        <hitPoints>25</hitPoints>
+        <skinCovered>true</skinCovered>
+        <canScarify>true</canScarify>
+        <tags>
+            <li>MovingLimbCore</li>
+        </tags>
+    </BodyPartDef>
+</Defs>

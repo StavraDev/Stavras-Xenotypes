@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>StavraDev.StavrasXenotypes</packageId>
+
+    <name>Stavra's Xenotypes</name>
+    <author>StavraDev</author>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+
+    <description>Adds two new alien races to your game!</description>
+
+    <modDependencies>
+        <li>
+            <packageId>redmattis.bigsmall.core</packageId>
+            <displayName>Big and Small - Genes and More</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2920751126</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>erdelf.humanoidalienraces</packageId>
+            <displayName>Humanoid Alien Races</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+
+    <loadAfter>
+        <li>redmattis.bigsmall.core</li>
+    </loadAfter>
+
+</ModMetaData>

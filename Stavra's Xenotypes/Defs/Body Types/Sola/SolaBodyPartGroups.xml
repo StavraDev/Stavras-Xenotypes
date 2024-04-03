@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BodyPartGroupDef>
+        <defName>SolaBodyParts_LowerLeftHand</defName>
+        <label>lower left fist</label>
+        <labelShort>fist</labelShort>
+        <listOrder>77</listOrder>
+    </BodyPartGroupDef>
+    <BodyPartGroupDef>
+        <defName>SolaBodyParts_LowerRightHand</defName>
+        <label>lower right fist</label>
+        <labelShort>fist</labelShort>
+        <listOrder>76</listOrder>
+    </BodyPartGroupDef>
+</Defs>

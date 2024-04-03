@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="HumanRace">
+        <defName>StavrasXenotypes_SolaRace</defName>
+        <label>sōla</label>
+        <description>
+            A Sōla.
+        </description>
+        <alienRace>
+            <generalSettings>
+                <maleGenderProbability>0</maleGenderProbability>
+                <growthAges>
+                    <li>8</li>
+                    <li>12</li>
+                    <li>15</li>
+                </growthAges>
+                <traitCount>2~3</traitCount>
+                <additionalTraits>0~3</additionalTraits>
+                <alienPartGenerator>
+                    <headTypes>
+                        <li>Female_AverageNormal</li>
+                        <li>Female_AveragePointy</li>
+                        <li>Female_NarrowNormal</li>
+                        <li>Female_NarrowPointy</li>
+                    </headTypes>
+                    <!--FINISH LATER-->
+                </alienPartGenerator>
+            </generalSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <NeedDef>
+        <defName>StavrasXenotypes_Humidity</defName>
+        <needClass>Need_Water</needClass>
+        <label>humidity</label>
+        <description>
+            Humidity represents an amphibious creature's need to stay hydrated. It improves when someone is standing in rain or in water, and decays depending on the biome they are in. A dehydrated creature will experience progressively more severe effects, depending on how dehydrated it is.
+        </description>
+        <listPriority>50</listPriority>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    </NeedDef>
+</Defs>

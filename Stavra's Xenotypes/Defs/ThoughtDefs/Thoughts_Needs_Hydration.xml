@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThoughtDef>
+        <DefName>StavrasXenotypes_NeedWater</defName>
+        <workerClass>ThoughtWorker_NeedWater</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>dry</label>
+                <description>I'm starting to feel dehydrated.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+            <li>
+                <label>parched</label>
+                <description>I'm drying out. I need water.</description>
+                <baseMoodEffect>-10</baseMoodEffect>
+            </li>
+            <li>
+                <label>dehydrated</label>
+                <description>I can feel my body becoming a desert and my brain drying out. I need water, NOW.</description>
+                <baseMoodEffect>-16</baseMoodEffect>
+            </li>
+            <li>
+                <label>very dehydrated</label>
+                <description>I need water... Please...</description>
+                <baseMoodEffect>-26</baseMoodEffect>
+            </li>
+            <li>
+                <label>extremely dehydrated</label>
+                <description>Where...? Who...? I... Water... Please...</description>
+                <baseMoodEffect>-42</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

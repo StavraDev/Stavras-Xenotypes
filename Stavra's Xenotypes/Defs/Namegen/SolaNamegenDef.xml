@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>w
+    <RulePackDef>w
+         <defName>StavrasXenotypesSolaNameGen</defName>
+         <include>
+             <li>TribalWordUtility</li>
+         </include>
+         <rulePack>
+             <rulesStrings>
+                <li>r_name->[SolaName] [SolaBeginSyl][SolaEndSyl]</li>
+                <li>r_name(p=2)->[SolaBeginSyl][SolaEndSyl] [SolaBeginSyl][SolaMidSyl][SolaEndSyl]</li>
+                <li>r_name->[SolaName] [SolaBeginSyl][SolaMidSyl][SolaEndSyl]
+                <li>r_name->[SolaBeginSyl][SolaMidSyl][SolaEndSyl] [SolaBeginSyl][SolaMidSyl][SolaEndSyl]</li>
+
+
+                <li>SolaName->aluña</li>
+                <li>SolaName->akelī</li>
+                <li>SolaName->alāka</li>
+                <li>SolaName->akesia</li>
+                <li>SolaName->akina</li>
+                <li>SolaName->akena</li>
+                <li>SolaName->zokaana</li>
+                <li>SolaName->azaki</li>
+
+
+
+                <li>SolaBeginSyl->ã</li>
+                <li>SolaBeginSyl->o</li>
+                <li>SolaBeginSyl->sa</li>
+                <li>SolaBeginSyl->akī</li>
+                <li>SolaBeginSyl->so</li>
+                <li>SolaBeginSyl->aka</li>
+                <li>SolaBeginSyl->aza</li>
+             </rulesStrings>
+         </rulePack>
+     </RulePackDef>
+</Defs>
